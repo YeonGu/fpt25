@@ -37,13 +37,12 @@ jobs:
           node-version: 22
           cache: pnpm
       
-      - name: Install corepack
-        run: npm install -g corepack@0.10.0 # Specify the version
+      # - name: Install corepack
+      #   run: npm install -g corepack@0.10.0 # Specify the version
 
       - name: Install Deps
-        run: |
-          corepack enable
-          pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
+          # corepack enable
 
       - name: Build Docs
         env:
