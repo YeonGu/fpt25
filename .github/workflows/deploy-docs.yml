@@ -22,6 +22,12 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
+        with:
+          version: 10.1.0 # Specify the desired pnpm version
+          dest: ~/setup-pnpm
+          run_install: true
+          package_json_file: package.json
+          standalone: false
 
 
       - name: Setup Node.js
