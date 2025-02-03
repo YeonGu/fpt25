@@ -11,3 +11,6 @@
 pnpm docs:dev
 ```
 
+## Github Pages
+
+Preview效果可以部署到GitHub pages. See https://yeongu.github.io/fpt25/ for this online version.

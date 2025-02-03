@@ -14,11 +14,11 @@ heroFullScreen: true
 actions:
   - text: Call for Papers
     icon: lightbulb
-    link: ./demo/
+    link: ./call
     type: primary
 
   - text: 🗓️ Program
-    link: ./guide/
+    link: ./program
 
 highlights:
   - header: About FPT 2025
