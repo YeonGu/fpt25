@@ -12,7 +12,7 @@ tagline: 5-9th Dec. 2025, Shanghai
 heroFullScreen: true
 # color: FFFFFF
 actions:
-  - text: 🎉 Call for Papers
+  - text: Call for Papers
     icon: lightbulb
     link: ./demo/
     type: primary

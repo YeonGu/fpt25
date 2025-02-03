@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   lang: "en-US",
   title: "FPT 2025",
-  description: "A docs demo for vuepress-theme-hope",
+  description: "FPT 2025 Conference Homepage",
 
   theme,
 
